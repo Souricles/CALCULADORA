@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Calculadora</h1>
+
+        <input type="number" id="valor1" class="numero" placeholder="valor 1">
+        <br><br>
+        <input type="number" id="valor2" class="numero" placeholder="valor 2">
+        <br><br>
+        
+        <input type="radio" id="adicao" name="operaction" value="adicao">
+        <label for="adicao">Adição</label>
+        <br>
+
+        <input type="radio" id="subtracao" name="operaction" value="subtracao">
+        <label for="subtracao">Subtração</label>
+        <br>
+
+        <input type="radio" id="multiplicacao" name="operaction" value="multiplicacao">
+        <label for="multiplicacao">Multiplicação</label>
+        <br>
+
+        <input type="radio" id="divisao" name="operaction" value="divisao">
+        <label for="divisao">Divisão</label>
+        <br><br>
+        <button onclick="buscar()" id="button">Calcular</button>
+        <br><br>
+
+        <h1 id="h1"></h1>
+        <br>
+
+    </div>
+    
+</body>
+<script src="./script.js"></script>
+</html>

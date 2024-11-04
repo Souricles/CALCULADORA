@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+ background-color: aqua;
+    text-align: center;
+    width: 40%;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#valor1 , #valor2{
+
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    
+}
